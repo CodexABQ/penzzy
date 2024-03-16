@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: ghostwhite;
+}
+.card{
+    max-width: 25em;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 15px;
+    box-shadow: 3px 5px 8px grey;
+}
+.card ul p{
+    font-weight: 900;
+}
+.card ul {
+    margin: 10px;
+    list-style-type: square;
+}
+.card ul li{
+    margin-left: 9px;
+}
+.card .bio{
+    font-size: small;
+    margin: 11px;
+    margin-top: px;
+    text-transform: capitalize;
+}
+div img{
+    width: 9em;
+    margin: 9px;
+    border-radius: 15px;
+    height: 10em;
+    min-width: 9em;
+}
+div img:hover{
+    transition: all 1s ease;
+    transform: scale(1.2);
+    border-radius: 0;
+}
+.card div{
+    align-items: center;
+    display: flex;
+}
+.card h2{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+section {
+    margin: 0 auto;
+    margin-top: -22px;
+    width: fit-content;
+    /* background-color: white; */
+}
